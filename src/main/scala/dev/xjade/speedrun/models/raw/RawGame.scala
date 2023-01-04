@@ -13,13 +13,13 @@ import dev.xjade.speedrun.models.raw.OtherTypes.RawNames
  * @param `release-date` The datetime that the game was released.
  * @param ruleset        The ruleset of the game.
  * @param romhack        If the game is a romhack or not.
- * @param gametypes      ?
- * @param platforms      ?
- * @param regions        ?
- * @param genres         ?
- * @param engines        ?
- * @param developers     ?
- * @param publishers     ?
+ * @param gametypes      TODO
+ * @param platforms      TODO
+ * @param regions        TODO
+ * @param genres         TODO
+ * @param engines        TODO
+ * @param developers     TODO
+ * @param publishers     TODO
  * @param moderators     A map of moderator IDs to
  * @param created        When the leaderboard was created.
  * @param assets         The assets of the game.
