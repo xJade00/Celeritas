@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.raw
  * @param default The default value.
  */
 case class RawVariableValuesHolder(
-                                    values: Map[String, RawVariableValue],
-                                    default: String
-                                  )
+  values: Map[String, RawVariableValue],
+  default: String
+)

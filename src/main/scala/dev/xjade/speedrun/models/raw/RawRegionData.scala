@@ -9,6 +9,6 @@ import dev.xjade.speedrun.models.raw.OtherTypes.RawNames
  * @param names Various names of the region.
  */
 case class RawRegionData(
-                          code: String,
-                          names: RawNames
-                        )
+  code: String,
+  names: RawNames
+)

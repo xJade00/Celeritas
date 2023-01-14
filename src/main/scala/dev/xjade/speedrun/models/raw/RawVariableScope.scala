@@ -6,5 +6,5 @@ package dev.xjade.speedrun.models.raw
  * @param `type` The type.
  */
 case class RawVariableScope(
-                             `type`: String
-                           )
+  `type`: String
+)

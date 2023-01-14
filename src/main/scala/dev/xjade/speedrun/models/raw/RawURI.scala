@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.raw
  * @param rel Relative link.
  */
 case class RawURI(
-                   uri: String,
-                   rel: String
-                 )
+  uri: String,
+  rel: String
+)

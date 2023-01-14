@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.raw
  * @param links Relevant links
  */
 case class RawGuests(
-                      name: String,
-                      links: Seq[RawURI]
-                    )
+  name: String,
+  links: Seq[RawURI]
+)

@@ -9,8 +9,8 @@ package dev.xjade.speedrun.models.raw
  * @param `color-to`   For a gradian, color it ends with.
  */
 case class RawNameStyle(
-                         style: String,
-                         color: RawNameStyleColor,
-                         `color-from`: RawNameStyleColor,
-                         `color-to`: RawNameStyleColor
-                       )
+  style: String,
+  color: RawNameStyleColor,
+  `color-from`: RawNameStyleColor,
+  `color-to`: RawNameStyleColor
+)

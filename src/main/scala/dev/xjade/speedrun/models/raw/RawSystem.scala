@@ -8,7 +8,7 @@ package dev.xjade.speedrun.models.raw
  * @param region   The region of the system.
  */
 case class RawSystem(
-                      platform: String,
-                      emulated: Boolean,
-                      region: String
-                    )
+  platform: String,
+  emulated: Boolean,
+  region: String
+)

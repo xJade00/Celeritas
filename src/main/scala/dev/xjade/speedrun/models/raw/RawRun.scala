@@ -20,19 +20,19 @@ package dev.xjade.speedrun.models.raw
  * @param links     Relevant links.
  */
 case class RawRun(
-                   id: String,
-                   weblink: String,
-                   game: String,
-                   level: String,
-                   category: String,
-                   videos: RawVideos,
-                   comment: String,
-                   status: RawStatus,
-                   players: Seq[RawPlayers],
-                   date: String,
-                   submitted: String,
-                   times: RawTimes,
-                   system: RawSystem,
-                   values: Map[String, String],
-                   links: Seq[RawURI]
-                 )
+  id: String,
+  weblink: String,
+  game: String,
+  level: String,
+  category: String,
+  videos: RawVideos,
+  comment: String,
+  status: RawStatus,
+  players: Seq[RawPlayers],
+  date: String,
+  submitted: String,
+  times: RawTimes,
+  system: RawSystem,
+  values: Map[String, String],
+  links: Seq[RawURI]
+)

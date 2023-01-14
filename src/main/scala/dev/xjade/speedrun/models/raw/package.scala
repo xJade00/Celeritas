@@ -5,6 +5,4 @@ package dev.xjade.speedrun.models
  * A nicer more useful representation of all the information
  * can be found outside the package.
  */
-package object raw {
-
-}
+package object raw {}

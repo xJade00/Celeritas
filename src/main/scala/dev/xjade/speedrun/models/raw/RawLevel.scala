@@ -10,9 +10,9 @@ package dev.xjade.speedrun.models.raw
  * @param links   Relevant links.
  */
 case class RawLevel(
-                     id: String,
-                     name: String,
-                     weblink: String,
-                     rules: String,
-                     links: Seq[RawURI]
-                   )
+  id: String,
+  name: String,
+  weblink: String,
+  rules: String,
+  links: Seq[RawURI]
+)

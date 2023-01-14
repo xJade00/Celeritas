@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.raw
  * @param links Relevant links.
  */
 case class RawVideos(
-                      text: String,
-                      links: Seq[RawURI]
-                    )
+  text: String,
+  links: Seq[RawURI]
+)

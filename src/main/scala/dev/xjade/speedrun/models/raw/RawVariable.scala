@@ -15,14 +15,14 @@ package dev.xjade.speedrun.models.raw
  * @param links Relevant links.
  */
 case class RawVariable(
-                        id: String,
-                        name: String,
-                        category: String,
-                        scope: RawVariableScope,
-                        mandatory: Boolean,
-                        `user-defined`: Boolean,
-                        obsoletes: Boolean,
-                        values: RawVariableValuesHolder,
-                        `is-subcategory`: Boolean,
-                        links: Seq[RawURI]
-                      )
+  id: String,
+  name: String,
+  category: String,
+  scope: RawVariableScope,
+  mandatory: Boolean,
+  `user-defined`: Boolean,
+  obsoletes: Boolean,
+  values: RawVariableValuesHolder,
+  `is-subcategory`: Boolean,
+  links: Seq[RawURI]
+)

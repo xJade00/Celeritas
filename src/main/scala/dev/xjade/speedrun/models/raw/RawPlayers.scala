@@ -8,7 +8,7 @@ package dev.xjade.speedrun.models.raw
  * @param uri URL to the player.
  */
 case class RawPlayers(
-                       rel: String,
-                       id: String,
-                       uri: String
-                     )
+  rel: String,
+  id: String,
+  uri: String
+)

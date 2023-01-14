@@ -10,9 +10,9 @@ package dev.xjade.speedrun.models.raw
  * @param rules   The rules of the category
  */
 case class RawCategories(
-                          id: String,
-                          name: String,
-                          weblink: String,
-                          `type`: String,
-                          rules: String,
-                        )
+  id: String,
+  name: String,
+  weblink: String,
+  `type`: String,
+  rules: String
+)

@@ -26,25 +26,25 @@ import dev.xjade.speedrun.models.raw.OtherTypes.RawNames
  * @param links          Relevant links.
  */
 case class RawGame(
-                    id: String,
-                    names: RawNames,
-                    abbreviation: String,
-                    weblink: String,
-                    released: Int,
-                    `release-date`: String,
-                    ruleset: RawRuleset,
-                    romhack: Boolean,
-                    // Below until the end comment this is a guess, love when documentation doesn't say
-                    gametypes: Any,
-                    platforms: Any,
-                    regions: Any,
-                    genres: Any,
-                    engines: Any,
-                    developers: Any,
-                    publishers: Any,
-                    // End comment
-                    moderators: Map[String, String],
-                    created: String,
-                    assets: RawAssets,
-                    links: Seq[RawURI]
-                  )
+  id: String,
+  names: RawNames,
+  abbreviation: String,
+  weblink: String,
+  released: Int,
+  `release-date`: String,
+  ruleset: RawRuleset,
+  romhack: Boolean,
+  // Below until the end comment this is a guess, love when documentation doesn't say
+  gametypes: Any,
+  platforms: Any,
+  regions: Any,
+  genres: Any,
+  engines: Any,
+  developers: Any,
+  publishers: Any,
+  // End comment
+  moderators: Map[String, String],
+  created: String,
+  assets: RawAssets,
+  links: Seq[RawURI]
+)

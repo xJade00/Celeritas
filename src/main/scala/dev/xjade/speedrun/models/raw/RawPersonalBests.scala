@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.raw
  * @param run   The raw run data.
  */
 case class RawPersonalBests(
-                             place: Int,
-                             run: RawRun
-                           )
+  place: Int,
+  run: RawRun
+)

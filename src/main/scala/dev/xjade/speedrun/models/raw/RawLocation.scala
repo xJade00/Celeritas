@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.raw
  * @param region  The region location data.
  */
 case class RawLocation(
-                        country: RawRegionData,
-                        region: RawRegionData
-                      )
+  country: RawRegionData,
+  region: RawRegionData
+)

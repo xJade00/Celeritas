@@ -8,7 +8,7 @@ package dev.xjade.speedrun.models.raw
  * @param links The relevant links.
  */
 case class RawDevelopers(
-                          id: String,
-                          name: String,
-                          links: Seq[RawURI]
-                        )
+  id: String,
+  name: String,
+  links: Seq[RawURI]
+)

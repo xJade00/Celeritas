@@ -17,16 +17,16 @@ package dev.xjade.speedrun.models.raw
  * @param foreground     The foreground image.
  */
 case class RawAssets(
-                      logo: RawAssetData,
-                      `cover-tiny`: RawAssetData,
-                      `cover-small`: RawAssetData,
-                      `cover-medium`: RawAssetData,
-                      `cover-large`: RawAssetData,
-                      icon: RawAssetData,
-                      `trophy-1st`: RawAssetData,
-                      `trophy-2nd`: RawAssetData,
-                      `trophy-3rd`: RawAssetData,
-                      `trophy-4th`: RawAssetData,
-                      background: RawAssetData,
-                      foreground: RawAssetData
-                    )
+  logo: RawAssetData,
+  `cover-tiny`: RawAssetData,
+  `cover-small`: RawAssetData,
+  `cover-medium`: RawAssetData,
+  `cover-large`: RawAssetData,
+  icon: RawAssetData,
+  `trophy-1st`: RawAssetData,
+  `trophy-2nd`: RawAssetData,
+  `trophy-3rd`: RawAssetData,
+  `trophy-4th`: RawAssetData,
+  background: RawAssetData,
+  foreground: RawAssetData
+)

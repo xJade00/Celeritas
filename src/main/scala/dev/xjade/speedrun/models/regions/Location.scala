@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.regions
  * @param region The general region of the user.
  */
 case class Location(
-                   country: RegionData,
-                   region: RegionData
-                   )
+  country: RegionData,
+  region: RegionData
+)

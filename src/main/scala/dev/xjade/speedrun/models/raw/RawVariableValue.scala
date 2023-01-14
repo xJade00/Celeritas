@@ -8,7 +8,7 @@ package dev.xjade.speedrun.models.raw
  * @param flags Variable flags.
  */
 case class RawVariableValue(
-                             label: String,
-                             rules: String,
-                             flags: RawVariableFlags
-                           )
+  label: String,
+  rules: String,
+  flags: RawVariableFlags
+)

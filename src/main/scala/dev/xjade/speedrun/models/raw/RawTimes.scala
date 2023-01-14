@@ -1,6 +1,5 @@
 package dev.xjade.speedrun.models.raw
 
-
 /**
  * Raw timing data.
  *
@@ -14,12 +13,12 @@ package dev.xjade.speedrun.models.raw
  * @param ingame_t           Ingame timing int.
  */
 case class RawTimes(
-                     primary: String,
-                     primary_t: Int,
-                     realtime: String,
-                     realtime_t: Int,
-                     realtime_noloads: String,
-                     realtime_noloads_t: Int,
-                     ingame: String,
-                     ingame_t: Int
-                   )
+  primary: String,
+  primary_t: Int,
+  realtime: String,
+  realtime_t: Int,
+  realtime_noloads: String,
+  realtime_noloads_t: Int,
+  ingame: String,
+  ingame_t: Int
+)

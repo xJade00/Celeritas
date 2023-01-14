@@ -8,7 +8,7 @@ package dev.xjade.speedrun.models.raw
  * @param `verify-date` If verified/rejected, the date.
  */
 case class RawStatus(
-                      status: String,
-                      examiner: String,
-                      `verify-date`: String
-                    )
+  status: String,
+  examiner: String,
+  `verify-date`: String
+)

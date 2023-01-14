@@ -16,15 +16,15 @@ package dev.xjade.speedrun.models.raw
  * @param links        Relevant links
  */
 case class RawLeaderboard(
-                           weblink: String,
-                           game: String,
-                           category: String,
-                           level: RawLevel,
-                           platform: String,
-                           region: String,
-                           emulators: Boolean,
-                           `video-only`: Boolean,
-                           timing: String,
-                           values: Map[String, String],
-                           links: Seq[RawURI]
-                         )
+  weblink: String,
+  game: String,
+  category: String,
+  level: RawLevel,
+  platform: String,
+  region: String,
+  emulators: Boolean,
+  `video-only`: Boolean,
+  timing: String,
+  values: Map[String, String],
+  links: Seq[RawURI]
+)

@@ -11,10 +11,10 @@ package dev.xjade.speedrun.models.raw
  * @param links   Relevant links.
  */
 case class RawNotification(
-                            id: String,
-                            created: String,
-                            status: String,
-                            text: String,
-                            item: RawURI,
-                            links: Seq[RawURI]
-                          )
+  id: String,
+  created: String,
+  status: String,
+  text: String,
+  item: RawURI,
+  links: Seq[RawURI]
+)

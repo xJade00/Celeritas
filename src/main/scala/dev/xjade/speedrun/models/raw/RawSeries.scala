@@ -15,12 +15,12 @@ import dev.xjade.speedrun.models.raw.OtherTypes.RawNames
  * @param links        Relevant links.
  */
 case class RawSeries(
-                      id: String,
-                      names: RawNames,
-                      abbreviation: String,
-                      weblink: String,
-                      moderators: Map[String, String],
-                      created: String,
-                      assets: RawAssets,
-                      links: Seq[RawURI]
-                    )
+  id: String,
+  names: RawNames,
+  abbreviation: String,
+  weblink: String,
+  moderators: Map[String, String],
+  created: String,
+  assets: RawAssets,
+  links: Seq[RawURI]
+)

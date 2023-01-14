@@ -8,7 +8,7 @@ package dev.xjade.speedrun.models.raw
  * @param height The picture's height.
  */
 case class RawAssetData(
-                         uri: String,
-                         width: Int,
-                         height: Int
-                       )
+  uri: String,
+  width: Int,
+  height: Int
+)

@@ -7,6 +7,6 @@ package dev.xjade.speedrun.models.raw
  * @param dark  The hex code for dark mode.
  */
 case class RawNameStyleColor(
-                              light: String,
-                              dark: String
-                            )
+  light: String,
+  dark: String
+)

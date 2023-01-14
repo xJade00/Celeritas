@@ -6,5 +6,5 @@ package dev.xjade.speedrun.models.raw
  * @param miscellaneous If the flag is misc.
  */
 case class RawVariableFlags(
-                             miscellaneous: Boolean
-                           )
+  miscellaneous: Boolean
+)
