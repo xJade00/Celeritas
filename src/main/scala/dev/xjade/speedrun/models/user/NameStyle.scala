@@ -3,7 +3,7 @@ package dev.xjade.speedrun.models.user
 import java.awt.Color
 
 /** The color of a name of a user. */
-trait NameStyle
+sealed trait NameStyle
 
 /**
  * A single username colour.

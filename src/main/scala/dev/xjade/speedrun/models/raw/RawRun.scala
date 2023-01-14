@@ -13,7 +13,7 @@ package dev.xjade.speedrun.models.raw
  * @param status    The status of this run.
  * @param players   Any players of this run.
  * @param date      The date this run was.
- * @param submitted TODO
+ * @param submitted The date this run was submitted to the leaderboard.
  * @param times     Raw timing data.
  * @param system    Raw system data.
  * @param values    Raw value data.

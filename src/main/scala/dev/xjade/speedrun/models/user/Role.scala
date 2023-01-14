@@ -1,7 +1,7 @@
 package dev.xjade.speedrun.models.user
 
 /** A role that a [[User]] can have. */
-trait Role
+sealed trait Role
 
 /** Represents that the [[User]] is a normal user. */
 case object UserRole extends Role

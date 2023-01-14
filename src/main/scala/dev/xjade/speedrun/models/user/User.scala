@@ -7,21 +7,21 @@ import dev.xjade.speedrun.models.regions.Location
 import java.util.Date
 
 /**
- * Represents a speedrun.com user.
+ * Represents a user with associated information
  *
- * @param id The ID of the user. See [[UserID]].
- * @param names The various names of the user. See [[dev.xjade.speedrun.models.NameType.NameType]]
- * @param link The link to the user's profile.
- * @param style The style of the username on the
- * @param role The role of the user. See [[Role]].
- * @param signup The signup date of the user. Might be empty for old users.
- * @param location The location data of the user.
- * @param twitch The optional twitch link of the user.
- * @param hitbox The optional hitbox link of the user.
- * @param youtube  The optional youtube link of the user.
- * @param twitter The optional twitter link of the user.
- * @param speedrunslive The optional speedruns live link of the user.
- * @param links Any other links of the user. See [[LinkType]].
+ * @param id The unique identifier for the user. [[UserID]]
+ * @param names The user's name in different languages or formats.
+ * @param link The link to the user's webpage or profile.
+ * @param style The style of the user's name. [[NameStyle]]
+ * @param role The role of the user. [[Role]]
+ * @param signup The date the user signed up. This will be [[None]] for old users.
+ * @param location The location of the user. [[Location]]
+ * @param twitch The optional link to the user's Twitch account.
+ * @param hitbox The optional link to the user's Hitbox account.
+ * @param youtube The optional link to the user's YouTube account.
+ * @param twitter The optional link to the user's Twitter account.
+ * @param speedrunslive The optional link to the user's SpeedRunsLive account.
+ * @param links The user's additional links.
  */
 case class User(
   id: UserID,
