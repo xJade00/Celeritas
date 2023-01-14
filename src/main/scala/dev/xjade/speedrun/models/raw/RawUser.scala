@@ -18,19 +18,21 @@ import dev.xjade.speedrun.models.raw.OtherTypes.RawNames
  * @param twitter The potential twitter of the user.
  * @param speedrunslive The potentail speedrunslive of the user.
  * @param links Relevant links
+ * @param assets The assets of the user.
  */
 case class RawUser(
-                    id: String,
-                    names: RawNames,
-                    weblink: String,
-                    `name-style`: RawNameStyle,
-                    role: String,
-                    signup: String,
-                    location: RawLocation,
-                    twitch: RawURI,
-                    hitbox: RawURI,
-                    youtube: RawURI,
-                    twitter: RawURI,
-                    speedrunslive: RawURI,
-                    links: Seq[RawURI]
-                  )
+  id: String,
+  names: RawNames,
+  weblink: String,
+  `name-style`: RawNameStyle,
+  role: String,
+  signup: String,
+  location: RawLocation,
+  twitch: RawURI,
+  hitbox: RawURI,
+  youtube: RawURI,
+  twitter: RawURI,
+  speedrunslive: RawURI,
+  links: Seq[RawURI],
+  assets: RawAssets
+)
