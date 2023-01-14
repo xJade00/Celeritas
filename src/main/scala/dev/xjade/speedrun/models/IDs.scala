@@ -13,6 +13,9 @@ case object IDs {
    */
   type UserID = String
 
+  /** Represents a [[Guest]]. This is equivalent to a name. */
+  type GuestID = String
+
   /** Represents a [[Game]] id. */
   type GameID = String
 

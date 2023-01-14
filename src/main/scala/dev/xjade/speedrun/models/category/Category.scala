@@ -1,7 +1,7 @@
 package dev.xjade.speedrun.models.category
 
 import dev.xjade.speedrun.models.IDs.CategoryID
-import dev.xjade.speedrun.models.LinkType.LinkType
+import dev.xjade.speedrun.models.UsefulTypes.ObjectLinks
 
 /**
  * The category of a game.
@@ -21,5 +21,5 @@ case class Category(
   rules: String,
   players: CategoryPlayers,
   miscellaneous: Boolean,
-  links: Map[LinkType, String]
+  links: ObjectLinks
 )

@@ -1,7 +1,7 @@
 package dev.xjade.speedrun.models.run
 
 import dev.xjade.speedrun.models.IDs._
-import dev.xjade.speedrun.models.LinkType.LinkType
+import dev.xjade.speedrun.models.UsefulTypes.ObjectLinks
 
 import java.util.Date
 
@@ -38,5 +38,5 @@ case class Run(
   times: Map[TimingMethod, Long],
   system: System,
   values: Map[VariableID, ValueID],
-  links: Map[LinkType, String]
+  links: ObjectLinks
 )

@@ -76,4 +76,9 @@ object LinkType {
   /** A link to the examiner of this run */
   val RunExaminerLink = "examiner"
 
+  /** A link to the games this developer has made. */
+  val DeveloperGameLink = "games"
+
+  /** A link to the games made with this engine. */
+  val EngineGameLink = "games"
 }

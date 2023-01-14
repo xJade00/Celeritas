@@ -3,6 +3,7 @@ package dev.xjade.speedrun.models.game
 import dev.xjade.speedrun.models.IDs._
 import dev.xjade.speedrun.models.LinkType.LinkType
 import dev.xjade.speedrun.models.NameType.NameType
+import dev.xjade.speedrun.models.UsefulTypes.ObjectLinks
 
 import java.util.Date
 
@@ -45,5 +46,5 @@ case class Game(
   moderators: Map[UserID, ModeratorType],
   created: Date,
   assets: Map[GameAsset, String],
-  links: Map[LinkType, String]
+  links: ObjectLinks
 )

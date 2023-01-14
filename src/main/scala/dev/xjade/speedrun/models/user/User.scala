@@ -1,7 +1,7 @@
 package dev.xjade.speedrun.models.user
 
 import dev.xjade.speedrun.models.IDs.UserID
-import dev.xjade.speedrun.models.LinkType.LinkType
+import dev.xjade.speedrun.models.UsefulTypes.ObjectLinks
 import dev.xjade.speedrun.models.regions.Location
 
 import java.util.Date
@@ -36,5 +36,5 @@ case class User(
   youtube: Option[String],
   twitter: Option[String],
   speedrunslive: Option[String],
-  links: Map[LinkType, String]
+  links: ObjectLinks
 )
